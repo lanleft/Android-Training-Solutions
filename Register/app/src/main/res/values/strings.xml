@@ -1,5 +1,3 @@
 <resources>
-    <string name="app_name">Register</string>
-    <string name="submit_correct">submit correct!!!</string>
-    <string name="submit_fail">You are missing somethings</string>
+    <string name="app_name">Calculator</string>
 </resources>
