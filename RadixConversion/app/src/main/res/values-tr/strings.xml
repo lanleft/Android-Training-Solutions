@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TURKISH -->
+
+    <!-- UI labels -->
+    <string name="base_from_starting_point">10</string>
+    <string name="base_to_starting_point">2</string>
+    <string name="button_0">0</string>
+    <string name="button_1">1</string>
+    <string name="button_2">2</string>
+    <string name="button_3">3</string>
+    <string name="button_4">4</string>
+    <string name="button_5">5</string>
+    <string name="button_6">6</string>
+    <string name="button_7">7</string>
+    <string name="button_8">8</string>
+    <string name="button_9">9</string>
+    <string name="button_A">A</string>
+    <string name="button_B">B</string>
+    <string name="button_C">C</string>
+    <string name="button_D">D</string>
+    <string name="button_E">E</string>
+    <string name="button_F">F</string>
+    <string name="button_del">DEL</string>
+    <string name="button_clr">CLR</string>
+    <string name="base">BAZ:</string>
+    <string name="from">DAN:</string>
+    <string name="to">IÇIN:</string>
+    <string name="input">GIRIŞ:</string>
+    <string name="output">ÇIKIŞ:</string>
+    <string name="title">\t\tTemel Dönüştürücü</string>
+    <string name="source_code">Kaynak kodu</string>
+    <string name="language">Dil</string>
+    <string name="theme">Tema</string>
+    <string name="rate_app">Uygulama oranı</string>
+    <string name="google_play_error">Google Play uygulaması bulunamadı</string>
+    <string name="launch_browser">Seç tarayıcı uygulaması</string>
+    <string name="cancel">İptal etmek</string>
+	<string name="copied_to_clipboard">Panoya kopyalandı!</string>
+	<string name="overflow_message">Sayı çok büyük!</string>
+    <string name="theme_error_message">Bu özellik yalnızca Marshmallow (API düzey 21) veya üstü</string>
+
+    <!-- Languages -->
+    <string name="arabic">العَرَبِيَّة</string>
+    <string name="chinese">中文</string>
+    <string name="dutch">Nederlands</string>
+    <string name="english">English</string>
+    <string name="french">Français</string>
+    <string name="german">Deutsche</string>
+    <string name="hindi">हिंदी</string>
+    <string name="italian">Italiano</string>
+    <string name="japanese">日本語</string>
+    <string name="korean">한국어</string>
+    <string name="malay">Bahasa Melayu</string>
+    <string name="polish">Polski</string>
+    <string name="portuguese">Português</string>
+    <string name="russian">Pу́сский</string>
+    <string name="spanish">Español</string>
+    <string name="turkish">Türkçe</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- KOREAN -->
+
+    <!-- UI labels -->
+    <string name="base_from_starting_point">10</string>
+    <string name="base_to_starting_point">2</string>
+    <string name="button_0">0</string>
+    <string name="button_1">1</string>
+    <string name="button_2">2</string>
+    <string name="button_3">3</string>
+    <string name="button_4">4</string>
+    <string name="button_5">5</string>
+    <string name="button_6">6</string>
+    <string name="button_7">7</string>
+    <string name="button_8">8</string>
+    <string name="button_9">9</string>
+    <string name="button_A">A</string>
+    <string name="button_B">B</string>
+    <string name="button_C">C</string>
+    <string name="button_D">D</string>
+    <string name="button_E">E</string>
+    <string name="button_F">F</string>
+    <string name="button_del">DEL</string>
+    <string name="button_clr">CLR</string>
+    <string name="base">베이스:</string>
+    <string name="from">에서:</string>
+    <string name="to">에:</string>
+    <string name="input">입력:</string>
+    <string name="output">산출:</string>
+    <string name="title">\t\t기본 변환기</string>
+    <string name="source_code">소스 코드</string>
+    <string name="language">언어</string>
+    <string name="theme">테마</string>
+    <string name="rate_app">앱 평가</string>
+    <string name="google_play_error">Google Play 앱을 찾을 수 없음</string>
+    <string name="launch_browser">선택 브라우저 응용 프로그램</string>
+    <string name="cancel">취소</string>
+	<string name="copied_to_clipboard">클립 보드로 복사되었습니다!</string>
+	<string name="overflow_message">번호가 너무 큽니다!</string>
+    <string name="theme_error_message">이 기능은 Marshmallow (API 레벨 21) 이상에서만 사용할 수 있습니다.</string>
+
+    <!-- Languages -->
+    <string name="arabic">العَرَبِيَّة</string>
+    <string name="chinese">中文</string>
+    <string name="dutch">Nederlands</string>
+    <string name="english">English</string>
+    <string name="french">Français</string>
+    <string name="german">Deutsche</string>
+    <string name="hindi">हिंदी</string>
+    <string name="italian">Italiano</string>
+    <string name="japanese">日本語</string>
+    <string name="korean">한국어</string>
+    <string name="malay">Bahasa Melayu</string>
+    <string name="polish">Polski</string>
+    <string name="portuguese">Português</string>
+    <string name="russian">Pу́сский</string>
+    <string name="spanish">Español</string>
+    <string name="turkish">Türkçe</string>
+</resources>

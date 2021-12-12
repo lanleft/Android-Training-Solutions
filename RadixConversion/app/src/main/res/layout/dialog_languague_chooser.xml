@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/label_language"
+        style="@style/LanguageTitleStyle"
+        android:paddingEnd="30dp"
+        android:paddingStart="30dp" />
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        style="@style/LanguageScrollViewStyle">
+
+        <LinearLayout
+            android:id="@+id/container_language_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/choice_english"
+                style="@style/LanguageChoiceStyle">
+
+                <RadioButton
+                    android:id="@+id/radio_button_english"
+                    style="@style/LanguageRadioButtonStyle" />
+
+                <ImageView
+                    android:id="@+id/flag_united_kingdom"
+                    style="@style/LanguageFlagStyle"
+                    android:src="@drawable/united_kingdom" />
+
+                <TextView
+                    android:id="@+id/label_english"
+                    style="@style/LanguageItemLabelStyle"
+                    android:text="@string/english" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/choice_spanish"
+                style="@style/LanguageChoiceStyle">
+
+                <RadioButton
+                    android:id="@+id/radio_button_spanish"
+                    style="@style/LanguageRadioButtonStyle" />
+
+                <ImageView
+                    android:id="@+id/flag_spain"
+                    style="@style/LanguageFlagStyle"
+                    android:src="@drawable/spain" />
+
+                <TextView
+                    android:id="@+id/label_spanish"
+                    style="@style/LanguageItemLabelStyle"
+                    android:text="@string/spanish" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/choice_french"
+                style="@style/LanguageChoiceStyle">
+
+                <RadioButton
+                    android:id="@+id/radio_button_french"
+                    style="@style/LanguageRadioButtonStyle" />
+
+                <ImageView
+                    android:id="@+id/flag_france"
+                    style="@style/LanguageFlagStyle"
+                    android:src="@drawable/france" />
+
+                <TextView
+                    android:id="@+id/label_french"
+                    style="@style/LanguageItemLabelStyle"
+                    android:text="@string/french" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/choice_german"
+                style="@style/LanguageChoiceStyle">
+
+                <RadioButton
+                    android:id="@+id/radio_button_german"
+                    style="@style/LanguageRadioButtonStyle" />
+
+                <ImageView
+                    android:id="@+id/flag_germany"
+                    style="@style/LanguageFlagStyle"
+                    android:src="@drawable/germany" />
+
+                <TextView
+                    android:id="@+id/label_german"
+                    style="@style/LanguageItemLabelStyle"
+                    android:text="@string/german" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/choice_italian"
+                style="@style/LanguageChoiceStyle">
+
+                <RadioButton
+                    android:id="@+id/radio_button_italian"
+                    style="@style/LanguageRadioButtonStyle" />
+
+                <ImageView
+                    android:id="@+id/flag_italy"
+                    style="@style/LanguageFlagStyle"
+                    android:src="@drawable/italy" />
+
+                <TextView
+                    android:id="@+id/label_italian"
+                    style="@style/LanguageItemLabelStyle"
+                    android:text="@string/italian" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/choice_dutch"
+                style="@style/LanguageChoiceStyle">
+
+                <RadioButton
+                    android:id="@+id/radio_button_dutch"
+                    style="@style/LanguageRadioButtonStyle" />
+
+                <ImageView
+                    android:id="@+id/flag_netherlands"
+                    style="@style/LanguageFlagStyle"
+                    android:src="@drawable/netherlands" />
+
+                <TextView
+                    android:id="@+id/label_dutch"
+                    style="@style/LanguageItemLabelStyle"
+                    android:text="@string/dutch" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/choice_portuguese"
+                style="@style/LanguageChoiceStyle">
+
+                <RadioButton
+                    android:id="@+id/radio_button_portuguese"
+                    style="@style/LanguageRadioButtonStyle" />
+
+                <ImageView
+                    android:id="@+id/flag_portugal"
+                    style="@style/LanguageFlagStyle"
+                    android:src="@drawable/portugal" />
+
+                <TextView
+                    android:id="@+id/label_portuguese"
+                    style="@style/LanguageItemLabelStyle"
+                    android:text="@string/portuguese" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/choice_polish"
+                style="@style/LanguageChoiceStyle">
+
+                <RadioButton
+                    android:id="@+id/radio_button_polish"
+                    style="@style/LanguageRadioButtonStyle" />
+
+                <ImageView
+                    android:id="@+id/flag_poland"
+                    style="@style/LanguageFlagStyle"
+                    android:src="@drawable/poland" />
+
+                <TextView
+                    android:id="@+id/label_polish"
+                    style="@style/LanguageItemLabelStyle"
+                    android:text="@string/polish" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/choice_russian"
+                style="@style/LanguageChoiceStyle">
+
+                <RadioButton
+                    android:id="@+id/radio_button_russian"
+                    style="@style/LanguageRadioButtonStyle" />
+
+                <ImageView
+                    android:id="@+id/flag_russia"
+                    style="@style/LanguageFlagStyle"
+                    android:src="@drawable/russia" />
+
+                <TextView
+                    android:id="@+id/label_russian"
+                    style="@style/LanguageItemLabelStyle"
+                    android:text="@string/russian" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/choice_turkish"
+                style="@style/LanguageChoiceStyle">
+
+                <RadioButton
+                    android:id="@+id/radio_button_turkish"
+                    style="@style/LanguageRadioButtonStyle" />
+
+                <ImageView
+                    android:id="@+id/flag_turkey"
+                    style="@style/LanguageFlagStyle"
+                    android:src="@drawable/turkey" />
+
+                <TextView
+                    android:id="@+id/label_turkish"
+                    style="@style/LanguageItemLabelStyle"
+                    android:text="@string/turkish" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/choice_chinese"
+                style="@style/LanguageChoiceStyle">
+
+                <RadioButton
+                    android:id="@+id/radio_button_chinese"
+                    style="@style/LanguageRadioButtonStyle" />
+
+                <ImageView
+                    android:id="@+id/flag_china"
+                    style="@style/LanguageFlagStyle"
+                    android:src="@drawable/china" />
+
+                <TextView
+                    android:id="@+id/label_chinese"
+                    style="@style/LanguageItemLabelStyle"
+                    android:text="@string/chinese" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/choice_japanese"
+                style="@style/LanguageChoiceStyle">
+
+                <RadioButton
+                    android:id="@+id/radio_button_japanese"
+                    style="@style/LanguageRadioButtonStyle" />
+
+                <ImageView
+                    android:id="@+id/flag_japan"
+                    style="@style/LanguageFlagStyle"
+                    android:src="@drawable/japan" />
+
+                <TextView
+                    android:id="@+id/label_japanese"
+                    style="@style/LanguageItemLabelStyle"
+                    android:text="@string/japanese" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/choice_korean"
+                style="@style/LanguageChoiceStyle">
+
+                <RadioButton
+                    android:id="@+id/radio_button_korean"
+                    style="@style/LanguageRadioButtonStyle" />
+
+                <ImageView
+                    android:id="@+id/flag_south_korea"
+                    style="@style/LanguageFlagStyle"
+                    android:src="@drawable/south_korea" />
+
+                <TextView
+                    android:id="@+id/label_korean"
+                    style="@style/LanguageItemLabelStyle"
+                    android:text="@string/korean" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/choice_arabic"
+                style="@style/LanguageChoiceStyle">
+
+                <RadioButton
+                    android:id="@+id/radio_button_arabic"
+                    style="@style/LanguageRadioButtonStyle" />
+
+                <ImageView
+                    android:id="@+id/flag_saudi_arabia"
+                    style="@style/LanguageFlagStyle"
+                    android:src="@drawable/saudi_arabia" />
+
+                <TextView
+                    android:id="@+id/label_arabic"
+                    style="@style/LanguageItemLabelStyle"
+                    android:text="@string/arabic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/choice_hindi"
+                style="@style/LanguageChoiceStyle">
+
+                <RadioButton
+                    android:id="@+id/radio_button_hindi"
+                    style="@style/LanguageRadioButtonStyle" />
+
+                <ImageView
+                    android:id="@+id/flag_india"
+                    style="@style/LanguageFlagStyle"
+                    android:src="@drawable/india" />
+
+                <TextView
+                    android:id="@+id/label_hindi"
+                    style="@style/LanguageItemLabelStyle"
+                    android:text="@string/hindi" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/choice_malay"
+                style="@style/LanguageChoiceStyle">
+
+                <RadioButton
+                    android:id="@+id/radio_button_malay"
+                    style="@style/LanguageRadioButtonStyle" />
+
+                <ImageView
+                    android:id="@+id/flag_malaysia"
+                    style="@style/LanguageFlagStyle"
+                    android:src="@drawable/malaysia" />
+
+                <TextView
+                    android:id="@+id/label_malay"
+                    style="@style/LanguageItemLabelStyle"
+                    android:text="@string/malay" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button_cancel"
+        style="@style/CancelButtonStyle"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:text="@string/cancel" />
+
+</RelativeLayout>

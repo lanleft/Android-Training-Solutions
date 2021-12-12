@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/label_theme"
+        style="@style/ThemeTitleStyle"
+        android:paddingEnd="30dp"
+        android:paddingRight="30dp"
+        android:paddingStart="30dp"
+        android:text="@string/theme" />
+
+    <RelativeLayout
+        android:id="@+id/container_themes"
+        style="@style/ThemeContainerStyle">
+
+        <LinearLayout
+            android:id="@+id/themes_first_row"
+            style="@style/ThemeRowStyle">
+
+            <RelativeLayout
+                style="@style/ThemeOptionStyle"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp">
+
+                <ImageView
+                    android:id="@+id/option_theme_purple"
+                    style="@style/ThemeImageStyle"
+                    android:src="@drawable/theme_shape_purple" />
+
+                <ImageView
+                    android:id="@+id/check_mark_purple"
+                    style="@style/ThemeCheckMarkStyle"
+                    android:src="@drawable/ic_check_mark" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                style="@style/ThemeOptionStyle"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+                <ImageView
+                    android:id="@+id/option_theme_indigo"
+                    style="@style/ThemeImageStyle"
+                    android:src="@drawable/theme_shape_indigo" />
+
+
+                <ImageView
+                    android:id="@+id/check_mark_indigo"
+                    style="@style/ThemeCheckMarkStyle"
+                    android:src="@drawable/ic_check_mark" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                style="@style/ThemeOptionStyle"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp">
+
+                <ImageView
+                    android:id="@+id/option_theme_pink"
+                    style="@style/ThemeImageStyle"
+                    android:src="@drawable/theme_shape_pink" />
+
+                <ImageView
+                    android:id="@+id/check_mark_pink"
+                    style="@style/ThemeCheckMarkStyle"
+                    android:src="@drawable/ic_check_mark" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/themes_second_row"
+            style="@style/ThemeRowStyle"
+            android:layout_below="@id/themes_first_row">
+
+            <RelativeLayout
+                style="@style/ThemeOptionStyle"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:id="@+id/option_theme_teal"
+                    style="@style/ThemeImageStyle"
+                    android:src="@drawable/theme_shape_teal" />
+
+                <ImageView
+                    android:id="@+id/check_mark_teal"
+                    style="@style/ThemeCheckMarkStyle"
+                    android:src="@drawable/ic_check_mark" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                style="@style/ThemeOptionStyle"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:id="@+id/option_theme_green"
+                    style="@style/ThemeImageStyle"
+                    android:src="@drawable/theme_shape_green" />
+
+                <ImageView
+                    android:id="@+id/check_mark_green"
+                    style="@style/ThemeCheckMarkStyle"
+                    android:src="@drawable/ic_check_mark" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                style="@style/ThemeOptionStyle"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:id="@+id/option_theme_orange"
+                    style="@style/ThemeImageStyle"
+                    android:src="@drawable/theme_shape_orange" />
+
+                <ImageView
+                    android:id="@+id/check_mark_orange"
+                    style="@style/ThemeCheckMarkStyle"
+                    android:src="@drawable/ic_check_mark" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_cancel"
+        style="@style/CancelButtonStyle"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/container_themes"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:text="@string/cancel" />
+
+</RelativeLayout>
