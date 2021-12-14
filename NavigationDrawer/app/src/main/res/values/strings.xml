@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Fragment</string>
+    <string name="nav_convert">Convert</string>
+    <string name="nav_calculator">Calculator</string>
+    <string name="nav_drawer_open">Open navigation drawer</string>
+    <string name="nav_drawer_close">Close navigation drawer</string>
+    <string name="del">Del</string>
+    <string name="ce">CE</string>
+    <string name="c">C</string>
+    <string name="fraction">1/x</string>
+    <string name="square">X²</string>
+    <string name="radical">²√x</string>
+    <string name="sum">+</string>
+    <string name="sub">-</string>
+    <string name="sign">+/-</string>
+    <string name="dot">.</string>
+    <string name="multi">×</string>
+    <string name="div">÷</string>
+    <string name="percent">%</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="equal">=</string>
+    <string name="cal">calculation</string>
+</resources>
